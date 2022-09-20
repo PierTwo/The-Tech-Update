@@ -1,0 +1,33 @@
+{
+  "name": "the-tech-update",
+  "version": "1.0.0",
+  "description": "The Tech Update is a blog to discuss the latest technologies, recent advancements, and more!",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierTwo/The-Tech-Update.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierTwo/The-Tech-Update/issues"
+  },
+  "homepage": "https://github.com/PierTwo/The-Tech-Update#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.0"
+  }
+}
